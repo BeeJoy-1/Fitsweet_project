@@ -366,3 +366,112 @@ a {
     }
 }
                     // Projects Codes
+
+                    // Feature Codes
+#feature {
+    background-color: #F4F6FC;
+    padding-bottom: 128px;
+    .feature__heading {
+        padding-top: 128px;
+        padding-bottom: 40px;
+        h4 {
+            @include peragraph;
+            font-weight: 500;
+            text-align: center;
+            color:#282938;
+        }
+        h2 {
+            @include heading;
+            text-align: center;
+            width: 630px;
+            margin: 0 auto;
+        }
+    }
+    .feature__Wrapper {
+        display: flex;
+        column-gap: 31px;
+        row-gap: 24px;
+        flex-wrap: wrap;
+        .feature__item {
+            background-color: #fff;
+            width: 406px;
+            height: 316px;
+            padding: 58px 32px 48px 48px ;
+            img {
+                padding-bottom: 23px;
+            }
+            h3 {
+                color: #282938;
+                font-family: 'Poppins', sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 36px;
+            }
+            p {
+                @include peragraph;
+                color: rgba(40, 41, 56, 0.7);
+                width: 325px;
+                padding-top: 12px;
+            }
+        }
+    }
+}
+                    // Feature Codes
+
+                    // Clients Codes
+#client {
+    padding: 130px 0 106px 0;
+    background-color: #F4F6FC;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    .client__wrapper {
+        display: flex;
+        column-gap: 110px;
+        .client__texts {
+            h2 {
+                @include heading;
+                width: 327px;
+                padding-bottom: 16px;
+                font-size: 38px;
+                line-height: 56px;
+            }
+            p {
+                @include peragraph;
+                width: 327px;
+                color: rgba(40, 41, 56, 0.7);
+            }
+        }
+        .client__comments {
+            h3 {
+                color:#282938;
+                font-family: 'Poppins', sans-serif;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 48px;
+                width: 843px;
+                padding-bottom: 48px;
+            }
+            .client__info {
+                display: flex;
+                column-gap: 10px;
+                .client__msg {
+                    h4 {
+                        color: #282938;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 32px;
+                    }
+                    h3 {
+                        color:#282938;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+                    // Clients Codes

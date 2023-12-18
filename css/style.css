@@ -514,4 +514,231 @@ a {
   font-weight: 500;
   line-height: 28px;
   font-family: "Poppins", sans-serif;
+}
+
+#question {
+  padding: 128px 0;
+}
+#question .que__wrapper {
+  display: flex;
+  -moz-column-gap: 136px;
+       column-gap: 136px;
+}
+#question .que__wrapper .que__texts {
+  width: 30%;
+}
+#question .que__wrapper .que__texts h2 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  font-size: 36px;
+  width: 328px;
+  line-height: 56px;
+  padding-bottom: 16px;
+  width: 316px;
+}
+#question .que__wrapper .que__texts a {
+  color: #2405F2;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#question .que__wrapper .que__faq {
+  width: 70%;
+}
+#question .que__wrapper .que__faq .border__line {
+  border-bottom: 2px solid #ECECF1;
+  padding-bottom: 48px;
+}
+#question .que__wrapper .que__faq .border__line2 {
+  border-bottom: 2px solid #ECECF1;
+  padding: 32px 0;
+}
+#question .que__wrapper .que__faq .border__line2:nth-child(5) {
+  border: none;
+}
+#question .que__wrapper .que__faq p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 624px;
+  padding-top: 16px;
+  margin-left: 81px;
+}
+#question .que__wrapper .que__faq .que__one__wrapper {
+  display: flex;
+  align-items: center;
+}
+#question .que__wrapper .que__faq .que__one__wrapper .que__left {
+  width: 10%;
+}
+#question .que__wrapper .que__faq .que__one__wrapper .que__left span {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #2405F2;
+}
+#question .que__wrapper .que__faq .que__one__wrapper .que__mid {
+  width: 80%;
+}
+#question .que__wrapper .que__faq .que__one__wrapper .que__mid h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#question .que__wrapper .que__faq .que__one__wrapper .que__right {
+  width: 10%;
+  text-align: right;
+}
+
+#inquiry {
+  padding-bottom: 128px;
+}
+#inquiry .inquiry__wrapper {
+  display: flex;
+}
+#inquiry .inquiry__wrapper .inquiry__img {
+  width: 640px;
+  height: 691px;
+  background: url(../images/hand.jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#inquiry .inquiry__wrapper .inquiry__img .inquiry__texts {
+  width: 640px;
+  height: 691px;
+  padding: 96px 96px 0 96px;
+  background-color: rgba(28, 30, 83, 0.5);
+}
+#inquiry .inquiry__wrapper .inquiry__img .inquiry__texts h2 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  width: 464px;
+  padding-bottom: 24px;
+}
+#inquiry .inquiry__wrapper .inquiry__img .inquiry__texts p {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-weight: 500;
+  width: 464px;
+}
+#inquiry .inquiry__wrapper .inquiry__form {
+  padding: 96px 96px 0 96px;
+  background-color: #1C1E53;
+  width: 640px;
+}
+#inquiry .inquiry__wrapper .inquiry__form h3 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+#inquiry .inquiry__wrapper .inquiry__form p {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 432px;
+  padding-bottom: 40px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .inquiry__input {
+  width: 432px;
+  height: 64px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-color: transparent;
+  margin-bottom: 16px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .inquiry__input input {
+  border: none;
+  width: 430px;
+  height: 62px;
+  padding: 0 18px;
+  background-color: transparent;
+  color: #fff;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .inquiry__input input::-moz-placeholder {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(244, 246, 252, 0.5);
+}
+#inquiry .inquiry__wrapper .inquiry__form form .inquiry__input input::placeholder {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(244, 246, 252, 0.5);
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__btn {
+  padding-top: 23px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__btn button {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: transparent;
+  transition: all linear 0.3s;
+  background-color: #FCD980;
+  color: #1B1C2B;
+  width: 430px;
+  height: 62px;
+  cursor: pointer;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__btn button:hover {
+  color: #1B1C2B;
+  background-color: #FCD980;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__link {
+  padding-top: 28px;
+  padding-left: 120px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__link a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  transition: all linear 0.3s;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__link a i {
+  margin-left: 10px;
+}
+#inquiry .inquiry__wrapper .inquiry__form form .form__link a:hover {
+  color: teal;
 }/*# sourceMappingURL=style.css.map */
